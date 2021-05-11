@@ -30,12 +30,15 @@ public String getFname() {
         return fname;
     }
 public void setFname(String fname) {
-    this.fname = fname;
+
+        this.fname = fname;
 }
 public String getLname() {
+
         return lname;
 }
 public void setLname(String lname){
+
         this.lname=lname;
 }
 public String getAddress(){
@@ -66,17 +69,19 @@ public int getMobile(){
         return mobile;
 }
 public void setMobile(int mobile){
+
         this.mobile=mobile;
 }
 public String getEmail(){
         return email;
 }
 public void setEmail(String email){
+
         this.email=email;
 }
 
 public String toString() {
-        return "Fname: " + fname + ", Lname: " + lname + ",Address: " + address + ", City: " + city + ", State: " + state + ",Zipcode: " + zipCode + ", Mobile: " + mobile + ",Email: " + email;
+        return "First Name: " + fname + ",\n Last Name: " + lname + ",Address: " + address + ", City: " + city + ", State: " + state + ",Zipcode: " + zipCode + ", Mobile: " + mobile + ",Email: " + email;
 }
     }
 

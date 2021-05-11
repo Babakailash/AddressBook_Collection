@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class AddressBookTest {
 
     public static void main(String[] args) {
-        System.out.println("**Program Infomation** \nFname" +
-                "-> Is the Name of the Person in Address Book \nLname" +
+        System.out.println("**Program Infomation** \nFirst Name" +
+                "-> Is the Name of the Person in Address Book \nLast Name" +
                 "-> ");
 
         String input;
@@ -19,10 +19,10 @@ public class AddressBookTest {
         boolean stop = false;
         do {
             System.out.println("\nMain Menu");
-            System.out.println("1. Add an Entry");
-            System.out.println("2. Delete an Entry");
+            System.out.println("1. Add An Entry");
+            System.out.println("2. Delete An Entry");
             System.out.println("3. View All Entries");
-            System.out.println("4. Update an Entry");
+            System.out.println("4. Update An Entry");
             System.out.println("5. Exit");
             System.out.println("Please Enter Choice from 1 to 5: \n");
             input = (in.next());
@@ -120,6 +120,6 @@ public class AddressBookTest {
             }
             //execute while Stop is False
         }      while (!input.equals("5"));
-            System.out.println("***Kailashnath Vishwakarma..***");
+            System.out.println("***Thank You :)***");
     }
 }
